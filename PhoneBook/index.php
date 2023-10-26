@@ -2,7 +2,6 @@
   require_once 'config/connect.php';
   $contacts = mysqli_query($connect, "SELECT * FROM `contacts`");
   $contacts = mysqli_fetch_all($contacts);
-  
 ?>
 
 <!DOCTYPE html>
